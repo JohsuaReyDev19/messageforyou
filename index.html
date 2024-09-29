@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Table with Print Button</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @media print {
+            /* Hide the print button when printing */
+            #printButton {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+<div class="w-[100vw] h-[100vh] flex items-center justify-center">
+    <center>
+        <h1 id="demo" class="text-5xl"></h1>
+    </center>
+</div>
+<script>
+setTimeout(function() { myFunction("may sasabihin ako"); }, 1000);
+
+function myFunction(value) {
+  document.getElementById("demo").innerHTML = value;
+}
+setTimeout(function() { myFunction("kaso nahihiya ako"); }, 4000);
+
+function myFunction(value) {
+  document.getElementById("demo").innerHTML = value;
+}
+setTimeout(function() { myFunction("pano ko ba sasabihin🤔"); }, 6000);
+
+function myFunction(value) {
+  document.getElementById("demo").innerHTML = value;
+}
+setTimeout(function() { myFunction("wait nihihiya ako😅"); }, 8000);
+
+function myFunction(value) {
+  document.getElementById("demo").innerHTML = value;
+}
+setTimeout(function() { myFunction("Kupal kaba bossing?"); }, 10000);
+
+function myFunction(value) {
+  document.getElementById("demo").innerHTML = value;
+}
+
+setTimeout(function() { myFunction("😅😂😂"); }, 11000);
+
+function myFunction(value) {
+  document.getElementById("demo").innerHTML = value;
+}
+</script>
+
+</body>
+</html>
